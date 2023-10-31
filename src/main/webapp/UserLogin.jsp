@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Recruiter Login</title>
+<title>User Login</title>
 <style>
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url("");
+	background-image: url();
 	background-size: cover;
 }
 
@@ -162,19 +162,19 @@ p.copyright {
 		<header>
 			<h2>${pass}</h2>
 			<h3>${fail}</h3>
-			<h1>Welcome to Recruiter Login Page</h1>
+			<h1>Welcome to User Login Page</h1>
 		</header>
 
 		<div id="login">
-			<form action="/recruiter/login" method="post">
+			<form action="/student/login" method="post">
 				<label for="email">Email:</label> <input type="text" id="email"
 					name="email"> <label for="password">Password:</label> <input
 					type="password" id="password" name="password">
 				<button type="submit">Login</button>
-				<a id="forgot-password" href="/recruiter/forgot-password">Forgot Password?</a>
+				<a id="forgot-password" href="/user/forgot-password">Forgot Password?</a>
 				<hr>
 				 <a id="signup"
-					href="/recruiter/signup">Create New Account</a>
+					href="/user/signup">Create New Account</a>
 			</form>
 		</div>
 		<a id="back" href="/">Back</a>

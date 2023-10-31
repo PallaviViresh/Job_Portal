@@ -16,6 +16,5 @@
         </form>
     </div>
     <a href="/">Back</a>
-</div>
 </body>
 </html>
